@@ -5,13 +5,15 @@ import Services.ApplicationService as appService
 weatherData = jsonReadService.ReadJsonAndReturnWeatherData() #dbConnectionService.DatabaseConnection()
 
 while (True):
-    userInput = input("1. Analyse once city over some period of time\
+    userInput = input("\nMenu:\
+        \n1. Analyse once city over some period of time\
         \n2. Analyse avarage data from all cities\
         \n3. Exit\
         \nChoose which type of analysis you want: ")
     
+
     if (userInput == '1'):
-        appService.Case1()
+        appService.Case1(weatherData)
     
     elif (userInput == '2'):
         appService.Case2(weatherData)
@@ -20,4 +22,4 @@ while (True):
         break
     
     else:
-        print("Please enter number 1 or 2")
+        print("Please enter number from 1 to 3")

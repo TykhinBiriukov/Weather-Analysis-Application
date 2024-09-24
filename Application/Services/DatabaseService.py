@@ -8,7 +8,7 @@ def ConnectToDatabase(dbPath):
 def ReadSQLAndReturnWeatherData(connection):
     readQuerty = "SELECT\
         f.date,\
-        c.name AS city_name,\
+        c.name AS Location,\
         f.temp,\
         f.temp_min,\
         f.temp_max,\

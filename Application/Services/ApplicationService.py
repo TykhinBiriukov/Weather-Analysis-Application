@@ -3,13 +3,11 @@ import Services.VisualisationService as visualService
 
 
 def Case1(weatherData):
-    print("Choose city for analysis:")
-    printDataService.PrintCitiesList
-    cityInput = input()
+    printDataService.PrintCitiesListFromJson(weatherData)
+    cityInput = input("Choose city for analysis (please enter citie's name): ")
     
-    print("Choose parameter for analysis:")
     printDataService.PrintParametersList()
-    parameterInput = input()
+    parameterInput = input("Choose parameter for analysis (please enter parameter number): ")
     
     if (parameterInput == "1"):
         visualService.CityTemperatureVisualisation(weatherData, cityInput)
@@ -29,9 +27,9 @@ def Case1(weatherData):
 
 
 def Case2(weatherData):
-    print("Choose parameter for analysis:")
     printDataService.PrintParametersList()
-    parameterInput = input()
+    
+    parameterInput = input("Choose parameter for analysis: ")
     
     if (parameterInput == "1"):
         visualService.AvarageTemperatureVisualisation(weatherData)
