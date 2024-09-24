@@ -46,3 +46,24 @@ Can be connected with my previous pet-project [**Weather Application**](https://
 
 
 ---
+
+## 🛠 Examples
+
+### 1. Multi-City Weather Analysis
+- Avarage Temperature:
+
+![Avarage temperature](https://github.com/user-attachments/assets/bda91257-dc30-4332-a42c-2f66a1c8c3ad)
+
+- Avarage Precipitation:
+
+![Avarage precipitation](https://github.com/user-attachments/assets/6e6a96b3-98f3-4820-980b-448e03c1df2e)
+
+
+### 2. Single-City Weather Analysis
+- Temperatures for Single City:
+
+![Temperatures for city](https://github.com/user-attachments/assets/04ca002e-adcb-431b-980c-82c1d0c77e74)
+
+- Dependency between Humidity and Precipitation:
+
+![Dependency between humidity and precipitation](https://github.com/user-attachments/assets/7c85e9e7-7d63-4413-a90f-0589015c99df)
